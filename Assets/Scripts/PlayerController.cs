@@ -28,6 +28,11 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-
+        if (other.gameObject.tag == "Pickup")
+        {
+            score += 1;
+            Debug.Log("Score: " + score);
+            other.gameObject.SetActive(false);
+        }
     }
 }

@@ -5483,6 +5483,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin
       objectReference: {fileID: 0}
+    - target: {fileID: 1654540450415632306, guid: 250c1dd0e24b915488a40beb3b4320ce,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pickup
+      objectReference: {fileID: 0}
     - target: {fileID: 8829452138802562650, guid: 250c1dd0e24b915488a40beb3b4320ce,
         type: 3}
       propertyPath: m_RootOrder

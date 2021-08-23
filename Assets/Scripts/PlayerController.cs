@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
 
     private Rigidbody rigid;
+    private int score = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,5 +23,11 @@ public class PlayerController : MonoBehaviour
         Vector3 moveDirection = new Vector3(xDirection, 0.0f, zDirection);
 
         rigid.AddForce (moveDirection * speed);
+
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+
     }
 }
